@@ -1,0 +1,1731 @@
+
+@font-face {
+  font-family: 'DFVN Love';
+  src: url('../fonts/DFVN-Love-Regular.eot');
+  src: url('../fonts/DFVN-Love-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/DFVN-Love-Regular.woff2') format('woff2'),
+      url('../fonts/DFVN-Love-Regular.woff') format('woff'),
+      url('../fonts/DFVN-Love-Regular.ttf') format('truetype'),
+      url('../fonts/DFVN-Love-Regular.svg#DFVN-Love-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamBlackItalic.eot');
+  src: url('../fonts/SVN-GothamBlackItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBlackItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamBlackItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBlackItalic.svg#SVN-GothamBlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamBold.eot');
+  src: url('../fonts/SVN-GothamBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBold.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBold.woff') format('woff'),
+      url('../fonts/SVN-GothamBold.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Book';
+  src: url('../fonts/SVN-GothamBookItalic.eot');
+  src: url('../fonts/SVN-GothamBookItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBookItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBookItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamBookItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBookItalic.svg#SVN-GothamBookItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '1FTV Blushing Rose';
+  src: url('../fonts/1FTVBlushingRose.eot');
+  src: url('../fonts/1FTVBlushingRose.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/1FTVBlushingRose.woff2') format('woff2'),
+      url('../fonts/1FTVBlushingRose.woff') format('woff'),
+      url('../fonts/1FTVBlushingRose.ttf') format('truetype'),
+      url('../fonts/1FTVBlushingRose.svg#1FTVBlushingRose') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamBoldItalic.eot');
+  src: url('../fonts/SVN-GothamBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBoldItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamBoldItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamBlack.eot');
+  src: url('../fonts/SVN-GothamBlack.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBlack.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBlack.woff') format('woff'),
+      url('../fonts/SVN-GothamBlack.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBlack.svg#SVN-GothamBlack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Book';
+  src: url('../fonts/SVN-GothamBook.eot');
+  src: url('../fonts/SVN-GothamBook.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBook.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBook.woff') format('woff'),
+      url('../fonts/SVN-GothamBook.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBook.svg#SVN-GothamBook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamLight.eot');
+  src: url('../fonts/SVN-GothamLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamLight.woff2') format('woff2'),
+      url('../fonts/SVN-GothamLight.woff') format('woff'),
+      url('../fonts/SVN-GothamLight.ttf') format('truetype'),
+      url('../fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamItalic.eot');
+  src: url('../fonts/SVN-GothamItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamItalic.svg#SVN-GothamItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-Gotham.eot');
+  src: url('../fonts/SVN-Gotham.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-Gotham.woff2') format('woff2'),
+      url('../fonts/SVN-Gotham.woff') format('woff'),
+      url('../fonts/SVN-Gotham.ttf') format('truetype'),
+      url('../fonts/SVN-Gotham.svg#SVN-Gotham') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamBold_1.eot');
+  src: url('../fonts/SVN-GothamBold_1.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamBold_1.woff2') format('woff2'),
+      url('../fonts/SVN-GothamBold_1.woff') format('woff'),
+      url('../fonts/SVN-GothamBold_1.ttf') format('truetype'),
+      url('../fonts/SVN-GothamBold_1.svg#SVN-GothamBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamThinItalic.eot');
+  src: url('../fonts/SVN-GothamThinItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamThinItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamThinItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamThinItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamThinItalic.svg#SVN-GothamThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamLightItalic.eot');
+  src: url('../fonts/SVN-GothamLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamLightItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamLightItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamLight_1.eot');
+  src: url('../fonts/SVN-GothamLight_1.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamLight_1.woff2') format('woff2'),
+      url('../fonts/SVN-GothamLight_1.woff') format('woff'),
+      url('../fonts/SVN-GothamLight_1.ttf') format('truetype'),
+      url('../fonts/SVN-GothamLight_1.svg#SVN-GothamLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Ultra';
+  src: url('../fonts/SVN-GothamUltra.eot');
+  src: url('../fonts/SVN-GothamUltra.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamUltra.woff2') format('woff2'),
+      url('../fonts/SVN-GothamUltra.woff') format('woff'),
+      url('../fonts/SVN-GothamUltra.ttf') format('truetype'),
+      url('../fonts/SVN-GothamUltra.svg#SVN-GothamUltra') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../fonts/SVN-GothamThin.eot');
+  src: url('../fonts/SVN-GothamThin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamThin.woff2') format('woff2'),
+      url('../fonts/SVN-GothamThin.woff') format('woff'),
+      url('../fonts/SVN-GothamThin.ttf') format('truetype'),
+      url('../fonts/SVN-GothamThin.svg#SVN-GothamThin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Ultra';
+  src: url('../fonts/SVN-GothamUltraItalic.eot');
+  src: url('../fonts/SVN-GothamUltraItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamUltraItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamUltraItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamUltraItalic.svg#SVN-GothamUltraItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham XLight';
+  src: url('../fonts/SVN-GothamXLightItalic.eot');
+  src: url('../fonts/SVN-GothamXLightItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamXLightItalic.woff2') format('woff2'),
+      url('../fonts/SVN-GothamXLightItalic.woff') format('woff'),
+      url('../fonts/SVN-GothamXLightItalic.ttf') format('truetype'),
+      url('../fonts/SVN-GothamXLightItalic.svg#SVN-GothamXLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham XLight';
+  src: url('../fonts/SVN-GothamXLight.eot');
+  src: url('../fonts/SVN-GothamXLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-GothamXLight.woff2') format('woff2'),
+      url('../fonts/SVN-GothamXLight.woff') format('woff'),
+      url('../fonts/SVN-GothamXLight.ttf') format('truetype'),
+      url('../fonts/SVN-GothamXLight.svg#SVN-GothamXLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Heavenly';
+  src: url('../fonts/SVN-Heavenly.eot');
+  src: url('../fonts/SVN-Heavenly.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SVN-Heavenly.woff2') format('woff2'),
+      url('../fonts/SVN-Heavenly.woff') format('woff'),
+      url('../fonts/SVN-Heavenly.ttf') format('truetype'),
+      url('../fonts/SVN-Heavenly.svg#SVN-Heavenly') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: '1FTV VIP Hertine';
+  src: url('1FTVVIPHertine.eot');
+  src: url('1FTVVIPHertine.eot?#iefix') format('embedded-opentype'),
+      url('1FTVVIPHertine.woff2') format('woff2'),
+      url('1FTVVIPHertine.woff') format('woff'),
+      url('1FTVVIPHertine.ttf') format('truetype'),
+      url('1FTVVIPHertine.svg#1FTVVIPHertine') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 480px;
+    height: auto;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    
+    background-image: url('./anh/background.png');
+    /* background: #7D7D7D; */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.back{
+    width: 100%;
+    height: 40vh;
+    background-image: url('./anh/anh1-07.jpg');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  /* line-height: 25px; */
+  font-family: '1FTV Blushing Rose';
+  color: #fff;
+}
+
+.timeinv{
+  font-family: '1FTV Blushing Rose';
+  font-weight: 400;
+  font-size: 15px;
+  /* opacity: 70%; */
+}
+
+h1{
+  font-weight: 400;
+  font-size: 40px;
+}
+h5{
+  font-weight: 400;
+}
+
+h4{
+  font-weight: 400;
+}
+.time{
+    width: 100%;
+    height: 500vh;
+    width: 100%;
+  background-image: url('./anh/background.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: top left;
+}
+
+
+.inv{
+
+}
+
+.ten {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('./anh/hoa1-07.png');
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+img{
+  width: 100px;
+  padding-top: 20px;
+  margin: 30px 0;
+}
+
+.kinhmoi{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.family{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 50px 0;
+  line-height: 18px;
+  padding: 0 15px;
+}
+
+.flower1{
+  width: 70px;
+  margin: 0 10px;
+}
+
+h2{
+  font-family: 'SVN-Gotham';
+  font-weight: 400;
+  font-size: 15px;
+  color: #545554;
+}
+
+h4{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 11px;
+  color: #000;
+}
+
+h3{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+.nameper{
+  width: 100%;
+  height: 200px;
+  background-image: url(./anh/nen2-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  line-height: 35px;
+
+}
+
+
+
+.name-inv{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.box-nameinv{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 15px;
+}
+
+.quy-nam{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.truong-nu{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-style: italic;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.name-groom{
+  font-family: '1FTV VIP Hertine';
+  color: #111;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+
+.name-bride{
+  font-family: '1FTV VIP Hertine';
+  color: #111;
+  font-size: 30px;
+}
+
+.and{
+  font-family: 'SVN-Gotham';
+  font-size: 10px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+
+.huyha{
+  width: 180px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.imgdm{
+  width: 100%;
+  /* height: 100vh; */
+  background-size: 200px;
+  background-image: url('./anh/hoa3-08.png');
+  background-repeat: no-repeat;
+  background-position: top right;
+  display: flex;
+  flex-direction: row;
+}
+.invita{
+  width: 100%;
+  /* background-image: url('./anh/nen.jpg'); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.res{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-left: auto;
+  line-height: 20px;
+  /* margin-top: 50px 0; */
+  padding-right: 10px;
+  padding-top: 50px;
+}
+
+.nameres{
+  font-family: 'SVN-Gotham';
+  font-weight: 600;
+  font-size: 13px;
+  color: #062C46;
+}
+
+.timeres {
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.timepar{
+  font-family: 'SVN-Gotham';
+  font-weight: 500;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  color: #062C46;
+}
+
+.datepar {
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.box-say{
+  width: 100%;
+  margin: 50px 0;
+}
+
+.says{
+  width: 100%;
+  height:180px;
+  background-image: url('./anh/nen7-07.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  text-align: left;
+}
+
+.say-title{
+   width: 100%;
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 8px;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 100px;
+  line-height: 15px;
+}
+.img-md1{
+  padding-bottom: 50px;
+}
+
+
+
+.gallery-album{
+  /* background-image: url('./anh/background.png'); */
+}
+.album{
+  padding-top: 30px;
+  margin: 20px 0;
+  width: 100%;
+  height: 300px;
+  /* width: 100%;
+  height: 250px; */
+  background-image: url('./anh/nen7-07.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center
+}
+
+.til-album{
+ width: 100%;
+ height: 300px;
+  
+}
+
+.til{
+  font-family: '1FTV Blushing Rose';
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  font-size: 45px;
+  margin-top: 120px;
+  opacity: 50%;
+}
+
+
+/* =========gallery======== */
+
+
+
+
+.photos {
+  /*   display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 20px; */
+     column-count: 3;
+  } 
+  
+  .photos img {
+    width: 100%;
+    
+    filter: contrast(100%);
+    transition: all 0.2s ease-in-out;
+  }
+
+  img{
+    padding-top: 10px;
+    margin: 0;
+  }
+  
+  .photos img:hover {
+    filter: contrast(125%);
+  }
+
+
+.container-slider {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  padding:10px;
+  color: white;
+  border-radius: 3px;
+  font-size: 16px;
+  top: 45%;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  color: black;
+  background-color: white;
+}
+h3{
+  margin-top:10px;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .prev,
+  .next {
+    font-size: 12px;
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .prev,
+  .next {
+    font-size: 9px;
+    top: 30%;
+  }
+}
+
+.til-countdown{
+width: 100%;
+background-image: url('./anh/background.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.timeleft{
+/* background-image: url('./anh/nen4-07.jpg'); */
+background-size: cover;
+background-position: top center;
+background-repeat: no-repeat;
+
+}
+
+.count-img{
+width: 180px;
+margin: 0 auto;
+padding-top: 0;
+}
+
+.til1{
+font-family: 'SVN-Gotham';
+font-weight: 500;
+font-size: 13px;
+font-style: normal;
+margin-top: 20px;
+}
+
+.til2{
+font-family: 'SVN-Gotham';
+font-weight: 300;
+font-size: 12px;
+font-style: normal;
+}
+
+.hoa5{
+  width: 10%;
+margin-bottom: 20px;
+}
+
+.container-count {
+padding-top: 10px;
+margin: 0 auto;
+text-align: center;
+}
+
+li {
+display: inline-block;
+list-style-type: none;
+font-size: .7em;
+padding: 1.3em;
+font-weight: 300;
+font-family: 'SVN-Gotham';
+}
+
+li span {
+display: block;
+font-size: 3rem;
+font-weight: 600;
+color: #062C46;
+}
+
+.map-add{
+width: 100%;
+margin: 50px 0;
+}
+
+.map-instruction{
+opacity: 100%;
+}
+
+.hoa6{
+width: 40%;
+}
+
+.wish{
+background-image: url('./anh/nen6-07.png');
+width: 100%;
+height: 150px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.wish-til{
+font-family: '1FTV Blushing Rose';
+font-weight: 400;
+font-size: 55px;
+font-style: normal;
+display: flex;
+text-align: left;
+padding-top: 70px;
+padding-left: 20px;
+color: #fff;
+opacity: 50%;
+}
+
+
+.wish-con{
+width: 100%;
+/* height: 100vh; */
+background-size: 250px;
+background-image: url('./anh/hoa3-07.png');
+background-repeat: no-repeat;
+background-position: top right;
+/* display: flex; */
+flex-direction: column;
+}
+
+.md{
+display: flex;
+/* padding-left: 20px; */
+margin: 20px;
+}
+
+.wish-fa{
+display: flex;
+flex-direction: column;
+text-align: left;
+font-family: 'SVN-Gotham';
+padding-top: 30px;
+padding-left: 30px;
+line-height: 20px;
+}
+
+
+
+.fa-per{
+font-size: 10px;
+font-weight: 300;
+}
+
+.mungcuoi-per{
+  font-size: 13px;
+}
+
+.hoa5{
+width: 100px;
+padding-bottom: 15px;
+}
+
+.til-wish{
+font-family: 'SVN-Gotham';
+font-weight: 400;
+font-size: 14px;
+}
+.box-hoa{
+margin: 0 auto;
+}
+
+
+
+
+/* qr */
+
+
+
+.box-qr{
+  /* background-color: #fff; */
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.con-qr{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'SVN-Gotham';
+  line-height: 25px;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+
+.btn-wish{
+display:inline-block;
+text-align: center;
+font-family: 'SVN-Gotham';
+text-decoration: none;
+color: #fff;
+background-color: #062C46;
+padding: 10px 30px;
+border-radius: 20px;
+font-weight: 300;
+font-size: 12px;
+margin: 30px 10px;
+}
+
+.modalDialog {
+/* position: fixed; */
+font-family: Arial, Helvetica, sans-serif;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0.8);
+z-index: 99999;
+opacity:0;
+-webkit-transition: opacity 300ms ease-in;
+-moz-transition: opacity 300ms ease-in;
+transition: opacity 300ms ease-in;
+pointer-events: none;
+padding: 30px;
+}
+
+.modalDialog:target {
+opacity:1;
+pointer-events: auto;
+}
+
+.modalDialog > div {
+width: 400px;
+position: relative;
+margin: 5% auto;
+padding: 5px 20px 13px 20px;
+background: #fff;
+border-radius: 20px;
+
+}
+
+.close {
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding: 10px;
+color:black;
+/* line-height: 25px; */
+position: relative;
+/* right: -3px; */
+text-align: center;
+/* top: -25px; */
+/* width: 24px; */
+text-decoration: none;
+background:none;
+font-weight: bold;
+font-size: 15px;
+}
+
+.close:hover { 
+color: #EA4436;
+}
+
+.qr{
+width: 100px;
+}
+
+.info-groom{
+margin-top: 20px;
+font-size: 15px;
+}
+
+.info-qr{
+display: flex;
+flex-direction: column;
+text-align: left;
+line-height: 20px;
+}
+
+.box-info{
+display: flex;
+flex-direction: column;
+font-family: 'SVN-Gotham';
+}
+
+.til1{
+font-size: 11px;
+font-weight: 300;
+}
+
+.til2{
+font-weight: 400;
+font-size: 13px;
+}
+/* ============ */
+
+
+
+/* lời chúc */
+
+.content-wrapper{
+width: 100%;
+max-width: 500px;
+/* min-height: 600px; */
+/* background-color: gray; */
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.slider-title-wrapper{
+/* padding: 15px; */
+.slider-title{
+  font-size: 18px;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+}
+}
+
+.slider-container {
+  overflow: hidden;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.slider-wrapper {
+  display: block;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  /* -ms-overflow-style: -ms-autohiding-scrollbar; */
+  margin-bottom: -20px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+
+  .slider-item {
+    align-items: center;
+    width: 350px;
+    min-height: 100px;
+    display: inline-flex;
+    border-radius: 20px;
+    margin-right: 15px;
+    background-color: #fff;
+    padding: 5px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 15px;
+    }
+  }
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  font-family: 'SVN-Gotham';
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+
+.til-form{
+font-family: 'SVN-Gotham';
+display: flex;
+text-align: center;
+font-size: 15px;
+}
+
+.loichuc{
+font-weight: 400;
+font-size: 13px;
+max-width: 300px;
+margin-bottom: 10px;
+/* margin-top: 10px; */
+}
+
+.tenchuc{
+font-weight: 300;
+font-size: 13px;
+}
+
+
+
+.scroll-container,
+.scroll-area {
+max-width: 850px;
+height: 500px;
+font-size: 60px;
+margin-top: -20px;
+}
+
+.scroll-container {
+overflow: auto;
+-webkit-scroll-snap-type: y mandatory;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+}
+
+.scroll-area {
+scroll-snap-align: start;
+}
+
+.scroll-container,
+.scroll-area {
+margin: 0 auto;
+}
+
+.scroll-area {
+display: flex;
+align-items: center;
+justify-content: center;
+color: #111;
+height: 150px;
+background: #cbcbcb;
+padding: 20px;
+border-radius: 20px;
+margin: 20px 0;
+}
+/* 
+.scroll-area:nth-of-type(1) {
+background: #fff;
+}
+
+.scroll-area:nth-of-type(2) {
+background: #ffff;
+}
+
+.scroll-area:nth-of-type(3) {
+background: #fff;
+}
+
+.scroll-area:nth-of-type(4) {
+background: #fff;
+} */
+
+
+
+.form-chuc{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+line-height: 20px;
+font-family: 'SVN-Gotham';
+font-size: 10px;
+}
+
+
+/* popup */
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 350px;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-content {
+  margin-top: 20px;
+  height: 500px;
+}
+
+.open-modal-btn {
+  font-family: 'SVN-Gotham';
+  padding: 10px 20px;
+  background-color: #062C46;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.open-modal-btn:focus ~ .modal-overlay{
+  opacity: 1;
+  visibility: visible;
+}
+.open-modal-btn:focus ~ .modal-overlay .modal{
+  opacity: 1;
+  transform: translateY(0);
+}
+.close-modal-btn {
+  background-color: transparent;
+  font-family: 'SVN-Gotham';
+  border: none;
+  color: #333;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.close-modal-btn:hover {
+  color: #f00;
+}
+.close-modal-btn:focus ~ .modal-overlay{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.attribute{
+  position: absolute;
+  bottom: 10px;
+}
+
+
+/* form-chuc */
+
+
+/* button {
+  width: 100px;
+  height: 30px;
+} */
+#popup {
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(50, 50, 50, 0.9);
+  border-radius: 20px;
+}
+#form {
+  position: absolute;
+  background-color: #f5f5f5;
+  border: 1px solid #212121;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  left: 50%;
+  top: 10%;
+  margin-left: -150px;
+}
+input {
+  width: 250px;
+  margin-bottom: 20px;
+}
+#close {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-left: auto;
+  margin-top: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+p1 {
+  float: left;
+  margin-left: 30px;
+}
+.cont {
+  background-color: #e3f2fd;
+  border-radius: 2px;
+  padding: 20px 50px;
+  width: 350px;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  overflow: auto;
+}
+#add {
+  margin: 10px;
+  background-color: #062C46;
+  border: 1px solid #062C46;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 150px;
+  font-family: 'SVN-Gotham';
+  color: #fff;
+  cursor: pointer;
+}
+
+#name{
+  width: 100%;
+  border: 1px solid gray;
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  height: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#country{
+  width: 100%;
+  font-family: 'SVN-Gotham';
+  padding: 10px;
+  font-weight: 300;
+}
+
+#submit{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 50px;
+  border-radius: 10px;
+  border: 1px solid #062C46;
+  background-color: #062C46;
+  color: #fff;
+  font-family: 'SVN-Gotham';
+  cursor: pointer;
+}
+
+#submit:hover{
+  background-color: #876169;
+}
+
+
+
+/*  */
+
+.form-chuc{
+margin: 50px 0;
+font-family: 'SVN-Gotham';
+display: flex;
+flex-direction: column;
+line-height: 30px;
+}
+
+.loi-chuc{
+margin: 10px 0;
+font-family: 'SVN-Gotham';
+font-size: 20px;
+}
+
+.feedback-input {
+color: #111;
+font-family: 'SVN-Gotham';
+font-weight:300;
+font-size: 15px;
+border-radius: 20px;
+line-height: 22px;
+background-color: transparent;
+border:2px solid #062C46;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width:100%;
+box-sizing: border-box;
+outline:0;
+}
+
+.feedback-input:focus { border:2px solid #062C46; }
+
+textarea {
+height: 150px;
+line-height: 150%;
+border-radius: 20px;
+resize:vertical;
+}
+
+[type="submit"] {
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+width: 100%;
+background:#CC6666;
+border-radius: 20px;
+border:0;
+cursor:pointer;
+color:white;
+font-size:24px;
+padding-top:10px;
+padding-bottom:10px;
+transition: all 0.3s;
+margin-top:-4px;
+font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
+
+
+.feedback{
+background-image: url('./anh/nen6-07.png');
+width: 100%;
+height: 150px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.feed-til{
+  font-family: '1FTV Blushing Rose';
+font-weight: 400;
+font-size: 55px;
+font-style: normal;
+/* display: flex; */
+text-align: right;
+align-items: flex-end;
+padding-top: 70px;
+padding-right: 20px;
+color: #fff;
+opacity: 50%;
+}
+
+
+.feed-flw{
+margin-left: auto;
+width: 20%;
+}
+
+.feed-info{
+  width: 100%;
+display: flex;
+flex-direction: column;
+text-align: right;
+margin: 10px 0;
+font-family: 'SVN-Gotham';
+font-size: 11px;
+line-height: 20px;
+padding-right: 10px;
+}
+
+.in-fea{
+font-weight: 400;
+font-size: 11xp;
+}
+
+.feed-pa{
+font-size: 9px;
+font-weight: 300;
+}
+
+
+/* check */
+
+.pills {
+display: flex;
+flex-direction: row;
+line-height: 30px;
+justify-content: center;
+}
+
+/* Visually hide the actual radio—we'll use the label for the visual "button" */
+[type="radio"] {
+border: 0;
+clip: rect(0 0 0 0);
+height: auto;
+margin: 0;
+/* overflow: hidden; */
+padding: 0;
+position: absolute;
+width: 1px;
+/* white-space: nowrap; */
+}
+
+.check-form {
+width: 150px;
+/* display: grid; */
+/* place-content: center; */
+/* border-left: 1px solid; */
+padding: 5px 0;
+font-weight: 600;
+line-height: 1;
+/* background-color: #7d7d7d; */
+color: #111;
+font-family: 'SVN-Gotham';
+font-weight: 300;
+font-size: 15px;
+margin: 10px 15px;
+border: 1px solid #062C46;
+}
+
+
+.check-form:first-of-type {
+border-left: 0;
+border-radius: 1rem;
+}
+
+
+.check-form:last-of-type {
+border-radius: 1rem;
+}
+
+@media (min-width: 40rem) {
+.pills {
+  column-gap: clamp(0.25rem, 0.25rem + 2vw, 1rem);
+  row-gap: 0.5rem;
+  flex-wrap: wrap;
+  }
+label {
+  border-radius: 999px !important;
+  padding: 0.5rem 0.75rem;
+}
+}
+
+/* Style visible label button using the associated input's state */
+[type="radio"]:checked + label {
+background-color: #062C46;
+color: #fff;
+}
+
+/* [type="radio"]:focus + label {
+box-shadow: inset 0 0 4px hsl(0deg 0% 0% / 0.8);
+} */
+
+/* Don't show focus styles when user interacts with a mouse */
+[type="radio"]:focus:not(:focus-visible) + label {
+box-shadow: none;
+}
+
+fieldset {
+border: 0;
+margin: 0;
+padding: 0;
+}
+
+.form-flow{
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+/* CHECK */
+
+
+
+.container-check {
+/* margin-top: 20px; */
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+input {
+/* display: none; */
+}
+.check-box {
+display: inline-block;
+border: 1px solid #062C46;
+padding: 5px 20px;
+margin: 20px;
+border-radius: 20px;
+font-style: normal;
+}
+.box-feed:checked+label {
+color: #fff;
+background-color: #fff;
+}
+
+.box-feed{
+border-radius: 20px;
+}
+
+.box-check{
+display: inline-block;
+align-items: center;
+justify-content: center;
+font-family: 'SVN-Gotham';
+border-radius: 20px;
+/*margin: 0 15px;*/
+}
+
+
+fieldset{
+  margin-top: 20px;
+}
+.check-ten{
+font-family: 'SVN-Gotham';
+font-size: 15px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+::placeholder{
+  font-family: 'SVN-Gotham';
+}
+
+.box-ten{
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.inp-ten{
+width: 330px;
+height: 30px;
+text-align: left;
+border-radius: 20px;
+/* margin: 20px 0; */
+border: 1px solid #7d7d7d;
+font-family: 'SVN-Gontham';
+font-weight: 300;
+padding: 5px 10px;
+}
+
+.til-check{
+margin: 0 auto;
+font-style: normal;
+font-size: 13px;
+}
+
+.box-count{
+display: flex;
+flex-direction: row;
+font-family: 'SVN-Gotham';
+align-items: center;
+text-align: center;
+justify-content: center;
+margin-bottom: 20px;
+}
+
+.count-per{
+width: 100px;
+height: 30px;
+margin: 0 20px;
+font-weight: 300;
+text-align: center;
+border-radius: 20px;
+border: 1px solid #7d7d7d;
+}
+
+textarea{
+  padding: 20px;
+  width: 300px;
+  font-weight: 300;
+}
+
+.box-chuc{
+  padding: 20px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #7d7d7d;
+  font-weight: 300;
+}
+
+.xacnhan{
+width: 300px;
+font-size: 15px;
+background: #062C46;
+color: #fff;
+margin: 20px 0;
+}
+
+.YEN{
+display: flex;
+flex-direction: column;
+text-align: center;
+font-family: 'SVN-Gotham';
+line-height: 15px;
+align-items: center;
+margin-top: 60px;
+}
+
+.yenstudio{
+font-size: 10px;
+}
+
+.yenbe{
+font-size: 9px;
+font-weight: 300;
+}
+
+.box-thanmoi{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.thanmoi{
+  font-family: 'SVN-Gotham';
+  font-weight: 300;
+  font-size: 12.5px;
+}
+
+.hoa7{
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media (max-width: 480px) {
+  .container {
+      width: 100%; /* Chiều rộng sẽ chiếm toàn bộ màn hình */
+  }
+}

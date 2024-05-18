@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'DFVN Love';
+    src: url('DFVN-Love-Regular.eot');
+    src: url('DFVN-Love-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DFVN-Love-Regular.woff2') format('woff2'),
+        url('DFVN-Love-Regular.woff') format('woff'),
+        url('DFVN-Love-Regular.ttf') format('truetype'),
+        url('DFVN-Love-Regular.svg#DFVN-Love-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamBlackItalic.eot');
+    src: url('SVN-GothamBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBlackItalic.woff2') format('woff2'),
+        url('SVN-GothamBlackItalic.woff') format('woff'),
+        url('SVN-GothamBlackItalic.ttf') format('truetype'),
+        url('SVN-GothamBlackItalic.svg#SVN-GothamBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamBold.eot');
+    src: url('SVN-GothamBold.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBold.woff2') format('woff2'),
+        url('SVN-GothamBold.woff') format('woff'),
+        url('SVN-GothamBold.ttf') format('truetype'),
+        url('SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('SVN-GothamBookItalic.eot');
+    src: url('SVN-GothamBookItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBookItalic.woff2') format('woff2'),
+        url('SVN-GothamBookItalic.woff') format('woff'),
+        url('SVN-GothamBookItalic.ttf') format('truetype'),
+        url('SVN-GothamBookItalic.svg#SVN-GothamBookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '1FTV Blushing Rose';
+    src: url('1FTVBlushingRose.eot');
+    src: url('1FTVBlushingRose.eot?#iefix') format('embedded-opentype'),
+        url('1FTVBlushingRose.woff2') format('woff2'),
+        url('1FTVBlushingRose.woff') format('woff'),
+        url('1FTVBlushingRose.ttf') format('truetype'),
+        url('1FTVBlushingRose.svg#1FTVBlushingRose') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamBoldItalic.eot');
+    src: url('SVN-GothamBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBoldItalic.woff2') format('woff2'),
+        url('SVN-GothamBoldItalic.woff') format('woff'),
+        url('SVN-GothamBoldItalic.ttf') format('truetype'),
+        url('SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamBlack.eot');
+    src: url('SVN-GothamBlack.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBlack.woff2') format('woff2'),
+        url('SVN-GothamBlack.woff') format('woff'),
+        url('SVN-GothamBlack.ttf') format('truetype'),
+        url('SVN-GothamBlack.svg#SVN-GothamBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Book';
+    src: url('SVN-GothamBook.eot');
+    src: url('SVN-GothamBook.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBook.woff2') format('woff2'),
+        url('SVN-GothamBook.woff') format('woff'),
+        url('SVN-GothamBook.ttf') format('truetype'),
+        url('SVN-GothamBook.svg#SVN-GothamBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamLight.eot');
+    src: url('SVN-GothamLight.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamLight.woff2') format('woff2'),
+        url('SVN-GothamLight.woff') format('woff'),
+        url('SVN-GothamLight.ttf') format('truetype'),
+        url('SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamItalic.eot');
+    src: url('SVN-GothamItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamItalic.woff2') format('woff2'),
+        url('SVN-GothamItalic.woff') format('woff'),
+        url('SVN-GothamItalic.ttf') format('truetype'),
+        url('SVN-GothamItalic.svg#SVN-GothamItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-Gotham.eot');
+    src: url('SVN-Gotham.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Gotham.woff2') format('woff2'),
+        url('SVN-Gotham.woff') format('woff'),
+        url('SVN-Gotham.ttf') format('truetype'),
+        url('SVN-Gotham.svg#SVN-Gotham') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamBold_1.eot');
+    src: url('SVN-GothamBold_1.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamBold_1.woff2') format('woff2'),
+        url('SVN-GothamBold_1.woff') format('woff'),
+        url('SVN-GothamBold_1.ttf') format('truetype'),
+        url('SVN-GothamBold_1.svg#SVN-GothamBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamThinItalic.eot');
+    src: url('SVN-GothamThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamThinItalic.woff2') format('woff2'),
+        url('SVN-GothamThinItalic.woff') format('woff'),
+        url('SVN-GothamThinItalic.ttf') format('truetype'),
+        url('SVN-GothamThinItalic.svg#SVN-GothamThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamLightItalic.eot');
+    src: url('SVN-GothamLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamLightItalic.woff2') format('woff2'),
+        url('SVN-GothamLightItalic.woff') format('woff'),
+        url('SVN-GothamLightItalic.ttf') format('truetype'),
+        url('SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamLight_1.eot');
+    src: url('SVN-GothamLight_1.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamLight_1.woff2') format('woff2'),
+        url('SVN-GothamLight_1.woff') format('woff'),
+        url('SVN-GothamLight_1.ttf') format('truetype'),
+        url('SVN-GothamLight_1.svg#SVN-GothamLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('SVN-GothamUltra.eot');
+    src: url('SVN-GothamUltra.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamUltra.woff2') format('woff2'),
+        url('SVN-GothamUltra.woff') format('woff'),
+        url('SVN-GothamUltra.ttf') format('truetype'),
+        url('SVN-GothamUltra.svg#SVN-GothamUltra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham';
+    src: url('SVN-GothamThin.eot');
+    src: url('SVN-GothamThin.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamThin.woff2') format('woff2'),
+        url('SVN-GothamThin.woff') format('woff'),
+        url('SVN-GothamThin.ttf') format('truetype'),
+        url('SVN-GothamThin.svg#SVN-GothamThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham Ultra';
+    src: url('SVN-GothamUltraItalic.eot');
+    src: url('SVN-GothamUltraItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamUltraItalic.woff2') format('woff2'),
+        url('SVN-GothamUltraItalic.woff') format('woff'),
+        url('SVN-GothamUltraItalic.ttf') format('truetype'),
+        url('SVN-GothamUltraItalic.svg#SVN-GothamUltraItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('SVN-GothamXLightItalic.eot');
+    src: url('SVN-GothamXLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamXLightItalic.woff2') format('woff2'),
+        url('SVN-GothamXLightItalic.woff') format('woff'),
+        url('SVN-GothamXLightItalic.ttf') format('truetype'),
+        url('SVN-GothamXLightItalic.svg#SVN-GothamXLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Gotham XLight';
+    src: url('SVN-GothamXLight.eot');
+    src: url('SVN-GothamXLight.eot?#iefix') format('embedded-opentype'),
+        url('SVN-GothamXLight.woff2') format('woff2'),
+        url('SVN-GothamXLight.woff') format('woff'),
+        url('SVN-GothamXLight.ttf') format('truetype'),
+        url('SVN-GothamXLight.svg#SVN-GothamXLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Heavenly';
+    src: url('SVN-Heavenly.eot');
+    src: url('SVN-Heavenly.eot?#iefix') format('embedded-opentype'),
+        url('SVN-Heavenly.woff2') format('woff2'),
+        url('SVN-Heavenly.woff') format('woff'),
+        url('SVN-Heavenly.ttf') format('truetype'),
+        url('SVN-Heavenly.svg#SVN-Heavenly') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
