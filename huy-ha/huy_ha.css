@@ -584,70 +584,37 @@ h3{
   font-size: 12px;
 }
 
-.box-say{
-  width: 100%;
-  margin: 50px 0;
-}
 
 .says{
   width: 100%;
-  background-image: url('./anh/nen7-07.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  align-items: center;
+ 
   display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: left;
 }
 
-.say-title{
-   width: 100%;
+.box-says{
+  background-image: url('./anh/anh1-07.png');
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  }
+.feed-say{
   font-family: 'SVN-Gotham';
-  font-weight: 300;
-  font-size: 8px;
-  color: #fff;
-  padding: 10px;
-  padding-top: 100px;
-  line-height: 15px;
+font-weight: 400;
+font-size: 8px;
+font-style: normal;
+text-align: left;
+align-items: flex-end;
+color: #fff;
+padding: 0 0 20px 20px;
 }
 .img-md1{
-  padding-bottom: 50px;
-}
-
-
-
-.gallery-album{
-  /* background-image: url('./anh/background.png'); */
-}
-.album{
-  padding-top: 30px;
-  margin: 20px 0;
-  width: 100%;
-  height: 300px;
-  /* width: 100%;
-  height: 250px; */
-  background-image: url('./anh/nen7-07.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  align-items: center
-}
-
-.til-album{
- width: 100%;
- height: 300px;
-  
-}
-
-.til{
-  font-family: '1FTV Blushing Rose';
-  margin: 0 auto;
-  text-align: center;
-  color: #fff;
-  font-weight: 300;
-  font-size: 45px;
-  margin-top: 120px;
-  opacity: 50%;
 }
 
 
@@ -1368,6 +1335,7 @@ background-position: center;
 background-repeat: no-repeat;
 }
 
+
 .feed-til{
   font-family: '1FTV Blushing Rose';
 font-weight: 400;
@@ -1666,5 +1634,8 @@ font-weight: 300;
 @media (max-width: 480px) {
   .container {
       width: 100%; /* Chiều rộng sẽ chiếm toàn bộ màn hình */
+  }
+  h1{
+    font-size: 30px;
   }
 }
