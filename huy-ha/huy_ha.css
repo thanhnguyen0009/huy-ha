@@ -1327,11 +1327,11 @@ font-weight:700;
 
 
 .feedback{
-background-image: url('./anh/anh1-07.jpg');
+background-image: url('./anh/anh.jpg');
 width: 100%;
-height: 250px;
+height: 350px;
 background-size: cover;
-background-position: center;
+background-position: top center;
 background-repeat: no-repeat;
 }
 
@@ -1344,9 +1344,9 @@ font-style: normal;
 /* display: flex; */
 text-align: left;
 align-items: flex-start;
-padding-top: 100px;
+padding-top: 50px;
 padding-right: 20px;
-color: #111;
+color: #fff;
 /* opacity: 50%; */
 }
 
