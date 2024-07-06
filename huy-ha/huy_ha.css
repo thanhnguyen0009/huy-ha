@@ -334,9 +334,9 @@
   text-align: center;
   align-items: center;
   margin-top: 100px;
-  /* line-height: 25px; */
+  line-height: 20px;
   font-family: '1FTV Blushing Rose';
-  color: #111;
+  color: #FFF;
 }
 
 .timeinv{
@@ -349,13 +349,24 @@
 h1{
   font-weight: 400;
   font-size: 40px;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; /* Tạo viền đen */
 }
 h5{
   font-weight: 400;
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; /* Tạo viền đen */
 }
 
 h4{
   font-weight: 400;
+  
 }
 .time{
     width: 100%;
@@ -1637,5 +1648,8 @@ font-weight: 300;
   }
   h1{
     font-size: 30px;
+  }
+  .feed-til{
+    padding-top: 10px;
   }
 }
