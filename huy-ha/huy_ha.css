@@ -320,7 +320,7 @@
 .back{
     width: 100%;
     height: 40vh;
-    background-image: url('./anh/anh1-07.jpg');
+    background-image: url('./anh/anh1-07.webp');
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -344,6 +344,11 @@
   font-weight: 400;
   font-size: 15px;
   /* opacity: 70%; */
+  text-shadow: 
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; /* Tạo viền đen */
 }
 
 h1{
@@ -539,7 +544,7 @@ h3{
 .imgdm{
   width: 100%;
   height: 250px;
-  background-image: url('./anh/anh2-07.png');
+  background-image: url('./anh/anh2-07.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -606,7 +611,7 @@ h3{
 }
 
 .box-says{
-  background-image: url('./anh/nen7-07.png');
+  background-image: url('./anh/nen7-07.webp');
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -1338,7 +1343,7 @@ font-weight:700;
 
 
 .feedback{
-background-image: url('./anh/anh.jpg');
+background-image: url('./anh/anh.webp');
 width: 100%;
 height: 350px;
 background-size: cover;
@@ -1385,7 +1390,7 @@ font-size: 11xp;
 }
 
 .feed-pa{
-font-size: 9px;
+font-size: 11px;
 font-weight: 300;
 }
 
